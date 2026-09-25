@@ -25,6 +25,7 @@ a{
 }
 .content-text{
     max-width: 800px;
+    margin: 10px auto;
     line-height: 1.6;
 }
 .arsenal-image{
