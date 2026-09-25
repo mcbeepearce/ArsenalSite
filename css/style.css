@@ -1,0 +1,60 @@
+/* Main page/page 1 layout and styling*/
+body {
+    background-color:lightgray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+header{
+    background-color:red;
+    color: floralwhite;
+    padding: 20px
+}
+nav{
+    text-align: center;
+}
+h1{
+    text-align: center;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    margin: 0 5px;
+}
+a{ 
+    color: red
+}
+.content-text{
+    max-width: 800px;
+    line-height: 1.6;
+}
+.arsenal-image{
+    display: block;
+    margin: 20px auto;
+}
+#important-facts{
+    background-color: white;
+    padding: 20px;
+    margin: 0;
+}
+/*Flexbox layout and styling*/
+.flex-container{
+    display: flex;
+    gap: 20px;
+    max-width: 900px;
+    margin: 20px auto;
+}
+.flex-container section{
+    flex: 1;
+    background-color: white;
+    padding: 20px;
+}
+h2{
+    text-align: center;
+}
+footer{
+    background-color: red;
+    color:white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
