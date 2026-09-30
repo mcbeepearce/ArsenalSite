@@ -7,7 +7,7 @@ body {
 header{
     background-color:red;
     color: floralwhite;
-    padding: 20px
+    padding: 20px;
 }
 nav{
     text-align: center;
@@ -65,4 +65,27 @@ a:hover{
 img{
     max-width: 100%;
     height: auto;
+}
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+    header {
+        padding: 15px;
+    }
+
+    .flex-container {
+        flex-direction: column;
+        margin: 15px;
+    }
+
+    .flex-container section {
+        padding: 15px;
+    }
+
+    .content-text {
+        margin: 10px 15px;
+    }
+
+    .arsenal-image {
+        width: 100%;
+    }
 }
