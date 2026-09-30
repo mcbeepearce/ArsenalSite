@@ -5,7 +5,7 @@ body {
     font-size: 16px;
 }
 header{
-    background-color:red;
+    background-color:#b00000;
     color: floralwhite;
     padding: 20px;
 }
@@ -53,7 +53,7 @@ h2{
     text-align: center;
 }
 footer{
-    background-color: red;
+    background-color: #b00000;
     color:white;
     text-align: center;
     padding: 15px;
