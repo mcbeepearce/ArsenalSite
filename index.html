@@ -4,9 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Arsenal Football Club</title>
-    <link rel="stylesheet" href="./css/style.css">
-<head>
 
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Your custom CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
 <body>
 <header>
     <h1>Arsenal Football Club</h1>
@@ -15,7 +19,7 @@
     <a href="page2.html"> Arsenal in EAFC 27</a>
 </nav>
 </header>
-<main>
+<main class="container py-4">
     <!-- Information about Arsenal-->
 <section>
     <h2>About Arsenal FC</h2>
@@ -28,8 +32,8 @@
     </p>
     <img class="arsenal-image" src="Images/TheEmirates.avif" alt="Emirates Stadium, home of the Arsenal." width="500">
 </section>
-<div class="flex-container">
-<section id="important-facts">
+<div class="row g-4">
+<section class="col-12 col-md-4">
     <h2> Important Facts</h2>
     <ul>
         <li>Arsenal has won the Premier League twice, once in an undefeated season in 2002/2003 and once in 2025/2026.</li>
@@ -38,7 +42,7 @@
         <li>Arsenal boasted the best defense in world football during the 2025/26 season, conceding just 0.69 goals per game (41 goals in 59 matches).</li>
     </ul>
 </section>
-<section>
+<section class="col-12 col-md-4">
     <h2>Arsenal's Recent Success</h2>
     <ol>
         <li> Arsenal won the Premier League in the 2025/2026 season, after three successive second place finishes.</li>
@@ -46,7 +50,7 @@
         <li> The club has won the Community Shield twice in the last four years.</li>
     </ol>
 </section>
-<section>
+<section class="col-12 col-md-4">
     <h2>Why Arsenal?</h2>
     <p>
         Arsenal has been a community-centered, yet globally-recognizable team and brand for over 100 years. The club's history and recent "comeback" under Mikel Arteta make it one of the most intriguing clubs in all of world football.
@@ -60,3 +64,4 @@
     Created for an educational assignment.
 </footer>
 </body>
+</html>
