@@ -1,68 +1,55 @@
-/* Main page/page 1 layout and styling*/
+/* Main page styling */
 body {
-    background-color:lightgray;
+    background-color: lightgray;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
 }
-header{
-    background-color:#b00000;
+header {
+    background-color: #b00000;
     color: floralwhite;
     padding: 20px;
 }
-nav{
+h1 {
     text-align: center;
 }
-h1{
+nav {
     text-align: center;
 }
-nav a{
-    color: white;
+nav a {
     text-decoration: none;
-    margin: 0 5px;
 }
-a{ 
+a {
     color: #b00000;
 }
-.content-text{
+.content-text {
     max-width: 800px;
     margin: 10px auto;
     line-height: 1.6;
 }
-.arsenal-image{
+.arsenal-image {
     display: block;
     margin: 20px auto;
 }
-#important-facts{
+/* Bootstrap grid section styling */
+.row > section {
     background-color: white;
     padding: 20px;
-    margin: 0;
+    border-radius: 4px;
 }
-/*Flexbox layout and styling*/
-.flex-container{
-    display: flex;
-    gap: 20px;
-    max-width: 900px;
-    margin: 20px auto;
-}
-.flex-container section{
-    flex: 1;
-    background-color: white;
-    padding: 20px;
-}
-h2{
+h2 {
     text-align: center;
 }
-footer{
+footer {
     background-color: #b00000;
-    color:white;
+    color: white;
     text-align: center;
     padding: 15px;
     margin-top: 30px;
 }
-a:hover{
+a:hover {
     text-decoration: underline;
 }
-img{
+img {
     max-width: 100%;
     height: auto;
 }
@@ -71,16 +58,6 @@ img{
     header {
         padding: 15px;
     }
-
-    .flex-container {
-        flex-direction: column;
-        margin: 15px;
-    }
-
-    .flex-container section {
-        padding: 15px;
-    }
-
     .content-text {
         margin: 10px 15px;
     }
